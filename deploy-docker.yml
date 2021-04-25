@@ -1,6 +1,8 @@
 ---
 - hosts: dev
-  become: True
+  become: yes
+  become_method: sudo
+  
   tasks:
    - name: Update apt repository
       apt: update_cache=yes
