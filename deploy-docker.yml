@@ -28,5 +28,6 @@
       name: devopsapp
       image: "ninadg89/devopsapp:{{DOCKER_TAG}}"
       state: started
+      restart: yes
       ports:
        - "8080:8080"
