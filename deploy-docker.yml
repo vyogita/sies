@@ -17,7 +17,7 @@
    - name: Start Docker
      service:
       name: docker
-      state: present
+      state: started
       enabled: yes
    - name: Install docker-py python module
      pip:
