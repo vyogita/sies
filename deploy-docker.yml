@@ -26,7 +26,7 @@
    - name: Start the Container
      docker_container:
       name: devopsapp
-      image: "ninadg89/devopsapp:{{DOCKER_TAG}}"
+      image: "vyogita/devopsapp:{{DOCKER_TAG}}"
       state: started
       restart: yes
       ports:
